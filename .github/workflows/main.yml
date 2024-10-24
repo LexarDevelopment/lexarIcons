@@ -11,6 +11,6 @@ jobs:
       - uses: bacongobbler/azure-blob-storage-upload@main
         with:
           source_dir: ./dist
-          container_name: contracts
+          container_name: landmark
           connection_string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           overwrite: 'true'
