@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const rename = require('gulp-rename');
 const replace = require('gulp-replace');
 
-const baseUrl = 'https://lexarprojects.blob.core.windows.net/lexaricons/';
+const baseUrl = 'https://cdn.jsdelivr.net/gh/LexarDevelopment/lexarIcons/dist/';
 
 gulp.task('copy-and-modify-css', function() {
   return gulp.src('src/style.css')
