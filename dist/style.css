@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'lexarIcons';
-  src:  url('./fonts/lexarIcons.eot?7u4sph');
-  src:  url('./fonts/lexarIcons.eot?7u4sph#iefix') format('embedded-opentype'),
-    url('./fonts/lexarIcons.ttf?7u4sph') format('truetype'),
-    url('./fonts/lexarIcons.woff?7u4sph') format('woff'),
-    url('./fonts/lexarIcons.svg?7u4sph#lexarIcons') format('svg');
+  src:  url('fonts/lexarIcons.eot?v94gcm');
+  src:  url('fonts/lexarIcons.eot?v94gcm#iefix') format('embedded-opentype'),
+    url('fonts/lexarIcons.ttf?v94gcm') format('truetype'),
+    url('fonts/lexarIcons.woff?v94gcm') format('woff'),
+    url('fonts/lexarIcons.svg?v94gcm#lexarIcons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="lx-"], [class*=" lx-"] {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'lexarIcons' !important;
   speak: never;
