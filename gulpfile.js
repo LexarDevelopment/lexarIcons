@@ -6,7 +6,7 @@ const baseUrl = 'https://cdn.jsdelivr.net/gh/LexarDevelopment/lexarIcons@main/di
 
 gulp.task('copy-and-modify-css', function() {
   return gulp.src('src/style.css')
-    .pipe(replace(/url\('fonts\//g, `url('${baseUrl}fonts/`))
+    // .pipe(replace(/url\('fonts\//g, `url('${baseUrl}fonts/`))
     // .pipe(rename('lexarIcons.css'))
     .pipe(gulp.dest('dist'));
 });
@@ -16,5 +16,10 @@ gulp.task('copy-other-files', function() {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('copy-files', function() {
+  return gulp.src(['src/**/*'])
+    .pipe(gulp.dest('dist'));
+});
+
 // Default task
-gulp.task('default', gulp.series('copy-and-modify-css', 'copy-other-files'));
+gulp.task('default', gulp.series('copy-files'));
