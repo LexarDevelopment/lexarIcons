@@ -1,0 +1,20 @@
+<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'
+	 viewBox='0 0 500 500' style='enable-background:new 0 0 500 500;' xml:space='preserve'>
+<style type='text/css'>
+	.st0{fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#00ff00;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<polyline class='st0' points='35,213.7 35,276.8 245,369.78 455,276.8 455,213.7 	'/>
+	<polyline class='st0' points='106.25,308.35 35,339.9 245,432.88 455,339.9 383.75,308.35 	'/>
+	<polygon class='st0' points='245,243.59 35,150.6 245,57.62 455,150.6 	'/>
+	<polyline class='st0' points='106.25,182.15 35,213.7 245,306.68 455,213.7 383.75,182.15 	'/>
+	<g>
+		<line class='st1' x1='245' y1='306.68' x2='245' y2='369.78'/>
+		<line class='st1' x1='175' y1='275.69' x2='175' y2='338.79'/>
+		<line class='st1' x1='105' y1='244.69' x2='105' y2='307.79'/>
+		<line class='st1' x1='315' y1='275.69' x2='315' y2='338.79'/>
+		<line class='st1' x1='385' y1='244.69' x2='385' y2='307.79'/>
+	</g>
+</g>
+</svg>

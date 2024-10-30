@@ -1,10 +1,14 @@
+:root {
+  --text-color: #000;
+}
+
 @font-face {
   font-family: 'lexarIcons';
-  src:  url('fonts/lexarIcons.eot?v93lpi');
-  src:  url('fonts/lexarIcons.eot?v93lpi#iefix') format('embedded-opentype'),
-    url('fonts/lexarIcons.ttf?v93lpi') format('truetype'),
-    url('fonts/lexarIcons.woff?v93lpi') format('woff'),
-    url('fonts/lexarIcons.svg?v93lpi#lexarIcons') format('svg');
+  src:  url('fonts/lexarIcons.eot?rsff33');
+  src:  url('fonts/lexarIcons.eot?rsff33#iefix') format('embedded-opentype'),
+    url('fonts/lexarIcons.ttf?rsff33') format('truetype'),
+    url('fonts/lexarIcons.woff?rsff33') format('woff'),
+    url('fonts/lexarIcons.svg?rsff33#lexarIcons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +29,169 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.lx-higharc:before {
+.lx-cat-321:before {
   content: "\e900";
+  color: var(--text-color);
+}
+.lx-cat-322:before {
+  content: "\e901";
+  color: var(--text-color);
+}
+.lx-cat-323:before {
+  content: "\e902";
+  color: var(--text-color);
+}
+.lx-cat-324:before {
+  content: "\e903";
+  color: var(--text-color);
+}
+.lx-cat-325:before {
+  content: "\e904";
+  color: var(--text-color);
+}
+.lx-cat-326:before {
+  content: "\e905";
+  color: var(--text-color);
+}
+.lx-cat-327:before {
+  content: "\e906";
+  color: var(--text-color);
+}
+.lx-cat-328:before {
+  content: "\e907";
+  color: var(--text-color);
+}
+.lx-cat-329:before {
+  content: "\e908";
+  color: var(--text-color);
+}
+.lx-cat-330:before {
+  content: "\e909";
+  color: var(--text-color);
+}
+.lx-cat-331:before {
+  content: "\e90a";
+  color: var(--text-color);
+}
+.lx-cat-332:before {
+  content: "\e90b";
+  color: var(--text-color);
+}
+.lx-cat-333:before {
+  content: "\e90c";
+  color: var(--text-color);
+}
+.lx-cat-334:before {
+  content: "\e90d";
+  color: var(--text-color);
+}
+.lx-cat-335:before {
+  content: "\e90e";
+  color: var(--text-color);
+}
+.lx-cat-336:before {
+  content: "\e90f";
+  color: var(--text-color);
+}
+.lx-cat-337:before {
+  content: "\e910";
+}
+.lx-cat-338:before {
+  content: "\e911";
+}
+.lx-cat-339:before {
+  content: "\e912";
+  color: var(--text-color);
+}
+.lx-cat-340:before {
+  content: "\e913";
+  color: var(--text-color);
+}
+.lx-cat-341:before {
+  content: "\e914";
+  color: var(--text-color);
+}
+.lx-cat-342:before {
+  content: "\e915";
+  color: var(--text-color);
+}
+.lx-cat-343:before {
+  content: "\e916";
+  color: var(--text-color);
+}
+.lx-cat-344:before {
+  content: "\e917";
+  color: var(--text-color);
+}
+.lx-cat-345:before {
+  content: "\e918";
+  color: var(--text-color);
+}
+.lx-cat-346:before {
+  content: "\e919";
+  color: var(--text-color);
+}
+.lx-cat-347:before {
+  content: "\e91a";
+  color: var(--text-color);
+}
+.lx-cat-348:before {
+  content: "\e91b";
+  color: var(--text-color);
+}
+.lx-cat-349:before {
+  content: "\e91c";
+  color: var(--text-color);
+}
+.lx-cat-350:before {
+  content: "\e91d";
+  color: var(--text-color);
+}
+.lx-cat-351:before {
+  content: "\e91e";
+  color: var(--text-color);
+}
+.lx-cat-352:before {
+  content: "\e91f";
+  color: var(--text-color);
+}
+.lx-cat-353:before {
+  content: "\e920";
+  color: var(--text-color);
+}
+.lx-cat-354:before {
+  content: "\e921";
+  color: var(--text-color);
+}
+.lx-cat-356:before {
+  content: "\e922";
+  color: var(--text-color);
+}
+.lx-cat-882:before {
+  content: "\e923";
+  color: var(--text-color);
+}
+.lx-cat-884:before {
+  content: "\e924";
+  color: var(--text-color);
+}
+.lx-cat-885:before {
+  content: "\e925";
+  color: var(--text-color);
+}
+.lx-excel:before {
+  content: "\e926";
+  color: var(--text-color);
+}
+.lx-higharc:before {
+  content: "\e927";
+  color: var(--text-color);
+}
+.lx-LexarX:before {
+  content: "\e928";
+  color: var(--text-color);
+}
+.lx-xodo:before {
+  content: "\e929";
+  color: var(--text-color);
 }
